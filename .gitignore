@@ -1,0 +1,59 @@
+# Arquivo gitignore para projetos Python
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+.VENV/
+
+# Arquivos e diretórios do Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.log
+*.pot
+*.pyc
+
+# Dados de IDEs
+.vscode/
+.idea/
+.project
+.pydevproject
+
+# Dados de Jupyter Notebooks
+.ipynb_checkpoints
+
+# Dados do PyInstaller
+build/
+dist/
+*.spec
+
+# Dados de distribuição
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Dados de cobertura de código
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Dados do mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
