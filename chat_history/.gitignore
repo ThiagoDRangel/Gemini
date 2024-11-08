@@ -1,0 +1,29 @@
+# Ignorar o ambiente virtual
+venv/
+.env/
+# Caso o nome do seu ambiente virtual seja outro, adicione-o aqui. Exemplo:
+# myenv/
+
+# Ignorar arquivos compilados
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignorar configurações do editor (ajuste conforme seu editor)
+.vscode/
+.idea/
+
+# Ignorar arquivos temporários
+*.log
+*.bak
+*.swp
+
+# Ignorar arquivos de dependências (caso você use o Pipenv ou Poetry)
+Pipfile.lock
+poetry.lock
+
+# Ignorar arquivos gerados pelo Jupyter (se usar Jupyter Notebook)
+.ipynb_checkpoints/
+
+# Ignorar a pasta de testes se for criada fora da estrutura do projeto
+tests/__pycache__/
